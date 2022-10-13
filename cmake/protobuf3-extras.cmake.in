@@ -1,0 +1,5 @@
+# This overrides the dependency tracker with the protobuf library file.
+set( @PROJECT_NAME@_LIBRARIES 
+	@CMAKE_INSTALL_PREFIX@/lib/libprotobuf-lite${CMAKE_STATIC_LIBRARY_SUFFIX}
+	@CMAKE_INSTALL_PREFIX@/lib/libprotoc${CMAKE_STATIC_LIBRARY_SUFFIX}
+	@CMAKE_INSTALL_PREFIX@/lib/libprotobuf${CMAKE_STATIC_LIBRARY_SUFFIX})

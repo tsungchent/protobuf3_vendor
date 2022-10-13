@@ -1,0 +1,14 @@
+<package format="3">
+  <name>protobuf3_vendor</name>
+  <version>3.3.3</version>
+  <description>protobuf3_vendor</description>
+  <maintainer email="slynen@ethz.ch">Simon Lynen</maintainer>
+
+  <license>See package</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
